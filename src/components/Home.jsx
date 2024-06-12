@@ -7,7 +7,7 @@ import HomeContent from "./HomeContent";
 
 
 const Home = () => {
-  const url = "https://fakestoreapi.com/products/";
+
 
   return (
     <>
