@@ -9,10 +9,10 @@ const Login = () => {
     <>
       <Navbar />
       <div className="bg-[#FCEFE9] w-full h-screen justify-center items-center">
-        <img src={login} className="w-[400px] h-60 mx-auto "></img>
+        <img src={login} className="w-[400px] h-60 mx-auto " alt="loginimg"></img>
         <div className="bg-white box-border h-80 w-[400px]  p-4 border-0 mx-auto">
           <h3 className="mt-4  items-center text-xl">
-            Login <span className="ml-4 text-gray-500 font-medium">or</span>{" "}
+            Login <span className="ml-4 text-gray-500 font-medium">or</span>
             Signup
           </h3>
           <div className="mt-4">
@@ -36,12 +36,7 @@ const Login = () => {
             </Link>
             <p class="text-sm font-light text-gray-500 dark:text-gray-400 mt-6">
              Have trouble logging in? <span className="text-[#FF7797]">Get help</span>{" "}
-              <a
-                href="#"
-                class="font-medium text-primary-600 hover:underline dark:text-primary-500"
-              >
-              
-              </a>
+            
             </p>
           </div>
         </div>
